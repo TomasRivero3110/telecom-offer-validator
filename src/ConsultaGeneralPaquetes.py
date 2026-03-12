@@ -7,9 +7,9 @@ from decimal import Decimal, InvalidOperation
 
 # Conexión a la BD (mismo formato que usás en otros scripts)
 connection = cx_Oracle.connect(
-    "app_catalogo",
-    "C4t4logo_2020",
-    "10.24.135.33:1521/NTSTTOMS",
+    "DB_USER",
+    "DB_PASSWORD",
+    "DB_USER_SERVER",
     encoding='UTF-8',
     nencoding='UTF-8'
 )
