@@ -18,3 +18,21 @@ The project executes SQL queries against an Oracle database, validates relations
 - OpenPyXL
 
 ## Project Structure
+
+src/
+core python scripts
+
+sql/
+validation queries
+
+examples/
+sample outputs
+
+## Use Case
+
+Telecom catalog environments often contain complex relationships between product offers and bonuses.  
+This tool automates validation checks to detect inconsistencies and support catalog maintenance.
+
+## Author
+
+Tomas Rivero
