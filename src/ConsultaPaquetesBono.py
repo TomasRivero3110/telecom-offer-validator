@@ -4,9 +4,9 @@ import cx_Oracle
 from decimal import InvalidOperation  # Ya no se usa; podés borrarlo si querés
 
 connection = cx_Oracle.connect(
-    "app_catalogo",
-    "C4t4logo_2020",
-    "10.24.135.33:1521/NTSTTOMS",
+    "DB_USER",
+    "DB_PASSWORD",
+    "DB_USER_SERVER",
     encoding="UTF-8",
     nencoding="UTF-8"
 )
