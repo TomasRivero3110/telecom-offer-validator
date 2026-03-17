@@ -5,9 +5,9 @@ import cx_Oracle
 
 # misma conexión que usás en consultaBDDEquipos.py
 connection = cx_Oracle.connect(
-    "app_catalogo",
-    "C4t4logo_2020",
-    "10.24.135.33:1521/NTSTTOMS",
+    "dsuser",
+    "dbpass",
+    "dbconnection",
     encoding='UTF-8',
     nencoding='UTF-8'
 )
